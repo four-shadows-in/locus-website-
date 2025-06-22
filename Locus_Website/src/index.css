@@ -1,1 +1,19 @@
-@import "tailwindcss";
+:root {
+  --primary-blue: #003b73;
+  --vibrant-red: #f24c3d;
+  --bright-yellow: #f7c948;
+  --warm-beige: #fff8f2;
+  --white: #ffffff;
+  --dark-gray: #333333;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  color: #333333;
+  line-height: 1.6;
+  background-color: #ffffff;
+}

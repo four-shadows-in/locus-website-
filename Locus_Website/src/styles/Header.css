@@ -1,0 +1,32 @@
+.navbar {
+  background: var(--white);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-blue);
+}
+.nav-links a {
+  margin-left: 20px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+.nav-links a:hover {
+  color: var(--vibrant-red);
+}
+.cta-button {
+  background: var(--vibrant-red);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
