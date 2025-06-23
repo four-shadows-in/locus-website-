@@ -4,6 +4,9 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import Hero from "./components/Hero";
+import Features from "./components/Features";
+import HowItWorks from "./components/HowItWorks";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -11,6 +14,9 @@ function App() {
   return (
     <>
       <Header />
+      <Hero />
+      <Features />
+      <HowItWorks />
       <Footer />
     </>
   );

@@ -1,0 +1,34 @@
+.hero {
+  position: relative;
+  color: white;
+  background: var(--primary-blue);
+  text-align: center;
+  padding: 120px 20px;
+  overflow: hidden;
+}
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+.hero-cta {
+  background: var(--vibrant-red);
+  color: white;
+  padding: 14px 32px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.map-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("https://i.imgur.com/5QFsB54.png") no-repeat center/cover;
+  opacity: 0.15;
+  z-index: 0;
+}
