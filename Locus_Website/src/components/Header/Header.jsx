@@ -1,15 +1,16 @@
 import React from "react";
+
 import "../../styles/Header.css";
 
 function Header() {
   return (
-    <header class="navbar">
-      <div class="container nav-content">
-        <div class="logo">Locus</div>
-        <nav class="nav-links">
+    <header className="navbar">
+      <div className="container nav-content">
+        <div className="logo">Locus</div>
+        <nav className="nav-links">
           <a href="#features">Features</a>
           <a href="#how">How It Works</a>
-          <a href="#join" class="cta-button">
+          <a href="#join" className="cta-button">
             Join Beta
           </a>
         </nav>
