@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/Features.css";
+import "../../styles/Features/Features.css";
 import FeatureCard from "./FeatureCard.jsx";
 
 function Features() {

@@ -1,19 +1,19 @@
 import React from "react";
-import "../styles/Hero.css";
+import "../../styles/Hero/Hero.css";
 
 function Hero() {
   return (
-    <section class="hero">
-      <div class="container hero-content">
+    <section className="hero">
+      <div className="container hero-content">
         <h1>📍Find What’s Happening Around You</h1>
         <p>
           Real-time local chat, live maps, and discovery — all in one place.
         </p>
-        <a href="#join" class="hero-cta">
+        <a href="#join" className="hero-cta">
           Start Exploring
         </a>
       </div>
-      {/* <div class="map-bg"></div> */}
+      {/* <div className="map-bg"></div> */}
     </section>
   );
 }

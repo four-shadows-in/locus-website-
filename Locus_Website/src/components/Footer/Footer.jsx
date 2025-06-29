@@ -1,14 +1,22 @@
 import React from "react";
-import "../../styles/Footer.css";
+import "../../styles/Footer/Footer.css";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <footer class="footer">
-      <div class="container">
+    <footer className="footer">
+      <div className="container">
         <p>© 2025 Locus. All rights reserved.</p>
       </div>
-      <div class="footer-social">
-        <a href="#">Privacy</a> · <a href="#">Terms</a> ·<a href="#">Contact</a>
+      <div className="footer-social">
+        <ul>
+          <li>
+            <Link to="privacy">Privacy Policy</Link>
+          </li>
+          <li>
+            <Link to="terms">Terms &amp; Conditions</Link>
+          </li>
+        </ul>
       </div>
     </footer>
   );
