@@ -5,7 +5,7 @@ const PrivacyPolicy = () => {
   return (
     <div className="privacy-container">
       <h1 className="privacy-title">Locus – Privacy Policy</h1>
-      <p className="privacy-effective-date">Effective Date: [Insert Date]</p>
+      <p className="privacy-effective-date">Effective Date: 30-06-2025</p>
 
       <section>
         <h2>1. What Information We Collect</h2>
@@ -123,15 +123,7 @@ const PrivacyPolicy = () => {
       </section>
 
       <section>
-        <h2>11. Children’s Privacy</h2>
-        <p>
-          Locus is for users 5 years and older. We do not knowingly collect data
-          from children under 5. Contact us if you believe we have.
-        </p>
-      </section>
-
-      <section>
-        <h2>12. Your Choices</h2>
+        <h2>11. Your Choices</h2>
         <ul>
           <li>Update/delete your info in account settings</li>
           <li>Manage permissions via device settings</li>
@@ -140,7 +132,7 @@ const PrivacyPolicy = () => {
       </section>
 
       <section>
-        <h2>13. Policy Updates</h2>
+        <h2>12. Policy Updates</h2>
         <p>
           We may revise this policy. Significant changes will be shared via the
           app or email.
@@ -148,8 +140,8 @@ const PrivacyPolicy = () => {
       </section>
 
       <section>
-        <h2>14. Contact Us</h2>
-        <p>📧 [Insert Contact Email]</p>
+        <h2>13. Contact Us</h2>
+        <p>📧 locusofficial22@gmail.com</p>
       </section>
     </div>
   );

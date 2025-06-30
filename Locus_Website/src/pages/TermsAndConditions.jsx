@@ -5,12 +5,12 @@ const TermsAndConditions = () => {
   return (
     <div className="terms-container">
       <h1 className="terms-title">Locus – Terms and Conditions</h1>
-      <p className="terms-effective-date">Effective Date: [Insert Date]</p>
+      <p className="terms-effective-date">Effective Date: 30-06-2025</p>
 
       <section>
         <h2>1. Eligibility</h2>
         <p>
-          You must be at least 5 years old to use Locus. By using the App, you
+          You must be at least 15 years old to use Locus. By using the App, you
           confirm that you meet this age requirement and are legally permitted
           to enter into this agreement.
         </p>
@@ -101,23 +101,7 @@ const TermsAndConditions = () => {
       </section>
 
       <section>
-        <h2>11. Limitation of Liability</h2>
-        <p>
-          The app is provided "as is". We are not liable for any losses or
-          damages.
-        </p>
-      </section>
-
-      <section>
-        <h2>12. Governing Law</h2>
-        <p>
-          These Terms are governed by the laws of [Insert Country/State].
-          Disputes will be handled in that jurisdiction.
-        </p>
-      </section>
-
-      <section>
-        <h2>13. Changes to These Terms</h2>
+        <h2>11. Changes to These Terms</h2>
         <p>
           We may update these Terms and notify you via the App or email.
           Continued use implies acceptance.
@@ -125,8 +109,8 @@ const TermsAndConditions = () => {
       </section>
 
       <section>
-        <h2>14. Contact</h2>
-        <p>📧 [Insert Contact Email]</p>
+        <h2>12. Contact</h2>
+        <p>📧 locusofficial22@gmail.com</p>
       </section>
     </div>
   );
