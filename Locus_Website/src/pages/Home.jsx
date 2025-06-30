@@ -1,6 +1,4 @@
-import Hero from "../components/Hero/Hero.jsx";
-import Features from "../components/Features/Features.jsx";
-import HowItWorks from "../components/HowItWorks/HowItWorks.jsx";
+import { Hero, Features, HowItWorks } from "../components/index.js";
 
 function Home() {
   return (
