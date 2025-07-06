@@ -44,3 +44,8 @@ p {
   margin: 8px 0;
   line-height: 1.6;
 }
+li {
+  display: list-item;
+  margin-bottom: 6px;
+  line-height: 1.6;
+}

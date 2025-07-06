@@ -8,21 +8,20 @@ const PrivacyPolicy = () => {
       <p className="privacy-effective-date">Effective Date: 30-06-2025</p>
 
       <section>
-        <h2>1. What Information We Collect</h2>
+        <h2>1. Information We Collect</h2>
         <ul>
           <li>
-            <strong>Personal Info:</strong> Name, date of birth, email address
-            (with verification)
+            <strong>Personal Information:</strong> We collect your name,
+            username, gender, and verified email address.
           </li>
           <li>
-            <strong>Profile Details:</strong> Optional details you choose to
-            provide
+            <strong>Location Information:</strong> Used strictly to connect you
+            with nearby users. Your exact location is never stored or visible to
+            others or us.
           </li>
           <li>
-            <strong>Location Data:</strong> Your device’s real-time location
-          </li>
-          <li>
-            <strong>Usage Data:</strong> Device info, app activity logs
+            <strong>Profile Image:</strong> You may optionally upload a photo
+            for your profile.
           </li>
         </ul>
       </section>
@@ -30,11 +29,10 @@ const PrivacyPolicy = () => {
       <section>
         <h2>2. How We Use Your Information</h2>
         <ul>
-          <li>Register and manage your account</li>
-          <li>Connect you with nearby users</li>
-          <li>Enable personal chat and interaction features</li>
-          <li>Send service updates and notifications</li>
-          <li>Improve app features and user experience</li>
+          <li>Create and manage your user account.</li>
+          <li>Help connect you with nearby users based on location.</li>
+          <li>Send relevant notifications and alerts.</li>
+          <li>Ensure platform security and integrity.</li>
         </ul>
       </section>
 
@@ -42,105 +40,73 @@ const PrivacyPolicy = () => {
         <h2>3. Permissions We Request</h2>
         <ul>
           <li>
-            <strong>Location:</strong> For regional user matching
+            <strong>Location:</strong> To connect you with nearby users. Not
+            stored or displayed.
           </li>
           <li>
-            <strong>Camera/Media:</strong> For profile photo uploads
+            <strong>Media:</strong> To upload a profile picture.
           </li>
           <li>
-            <strong>Notifications:</strong> To alert you about interactions or
-            updates
+            <strong>Notifications:</strong> To send app-related updates.
           </li>
         </ul>
       </section>
 
       <section>
-        <h2>4. Location and Matching</h2>
-        <p>Your location is used only to group you with surrounding users.</p>
+        <h2>4. Use of Location</h2>
         <ul>
-          <li>Exact location is not visible to others</li>
-          <li>Location access is required for app functionality</li>
-          <li>Falsifying or spoofing location is prohibited</li>
+          <li>Your location is only used for connecting with nearby users.</li>
+          <li>We do not store or access your location beyond that use.</li>
+          <li>Your location is never shown to other users.</li>
         </ul>
       </section>
 
       <section>
-        <h2>5. Background Location Updates</h2>
+        <h2>5. Account Policy</h2>
         <p>
-          Locus updates your location every 15 minutes (default), even when the
-          app is not open.
-        </p>
-        <ul>
-          <li>You can change this interval or disable updates in settings</li>
-          <li>
-            Disabling background access may reduce accuracy or cause delayed
-            notifications
-          </li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>6. Multiple Account Policy</h2>
-        <p>
-          Only one account per user is allowed. Duplicate/fake accounts may be
-          removed or merged.
+          Each user may create only one account. Duplicate accounts are not
+          allowed and may be removed.
         </p>
       </section>
 
       <section>
-        <h2>7. Data Sharing</h2>
-        <p>We do not sell your data. We may share it:</p>
-        <ul>
-          <li>With third-party services under strict privacy terms</li>
-          <li>As required by law</li>
-          <li>During business transfers (e.g., mergers, acquisitions)</li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>8. Chat and Communication Privacy</h2>
-        <ul>
-          <li>Messages are private and end-to-end encrypted</li>
-          <li>Not monitored or stored unless required by law enforcement</li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>9. Data Retention</h2>
-        <ul>
-          <li>Data is retained while your account is active</li>
-          <li>Most data is deleted within 30 days of account deletion</li>
-          <li>Some data may be retained longer for legal reasons</li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>10. Security</h2>
+        <h2>6. Data Sharing</h2>
         <p>
-          We take reasonable steps to protect your data, but 100% security is
-          not guaranteed. Please protect your credentials.
+          We do <strong>not</strong> share, sell, rent, or disclose your data to
+          any third parties. Your information is used solely within the app for
+          its intended purposes.
         </p>
       </section>
 
       <section>
-        <h2>11. Your Choices</h2>
-        <ul>
-          <li>Update/delete your info in account settings</li>
-          <li>Manage permissions via device settings</li>
-          <li>Delete your account at any time</li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>12. Policy Updates</h2>
+        <h2>7. Data Security</h2>
         <p>
-          We may revise this policy. Significant changes will be shared via the
-          app or email.
+          We implement reasonable technical and organizational safeguards to
+          protect your information. However, no digital system is entirely
+          secure.
         </p>
       </section>
 
       <section>
-        <h2>13. Contact Us</h2>
+        <h2>8. Children’s Privacy</h2>
+        <p>
+          This app is not intended for children under 13 years of age. If we
+          discover we’ve collected data from a child, we will promptly delete
+          it.
+        </p>
+      </section>
+
+      <section>
+        <h2>9. Changes to This Policy</h2>
+        <p>
+          We may update this policy from time to time. Major changes will be
+          communicated through the app or via email with an updated effective
+          date.
+        </p>
+      </section>
+
+      <section>
+        <h2>10. Contact Us</h2>
         <p>📧 locusofficial22@gmail.com</p>
       </section>
     </div>
