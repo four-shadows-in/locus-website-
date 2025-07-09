@@ -17,7 +17,7 @@ function Footer() {
             <Link to="/terms">Terms &amp; Conditions</Link>
           </li>
           <li>
-            <Link to="/child-safety">Safety Standards</Link>
+            <Link to="/safety-standards">Safety Standards</Link>
           </li>
         </ul>
       </div>
