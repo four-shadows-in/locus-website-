@@ -9,6 +9,7 @@ import MainLayout from "./layouts/MainLayout.jsx";
 import Home from "./pages/Home.jsx";
 import TermsAndConditions from "./pages/TermsAndConditions.jsx";
 import PrivacyPolicy from "./pages/PrivacyPolicy.jsx";
+import ChildSafetyPolicy from "./pages/childabuse.jsx";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       {
         path: "privacy",
         element: <PrivacyPolicy />,
+      },
+       {
+        path: "safety-standards", 
+        element: <ChildSafetyPolicy />,
       },
     ],
   },
