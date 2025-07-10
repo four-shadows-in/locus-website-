@@ -12,7 +12,7 @@ const PrivacyPolicy = () => {
         <ul>
           <li>
             <strong>Personal Information:</strong> We collect your name,
-            username, gender, and verified email address.
+            username, gender, Date of Birth, and verified email address.
           </li>
           <li>
             <strong>Location Information:</strong> Used strictly to connect you
