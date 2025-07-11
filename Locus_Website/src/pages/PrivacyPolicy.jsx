@@ -109,7 +109,7 @@ const PrivacyPolicy = () => {
       </section>
 
       <section>
-        <h2>9. Changes to This Policy</h2>
+        <h2>10. Changes to This Policy</h2>
         <p>
           We may update this policy from time to time. Major changes will be
           communicated through the app or via email with an updated effective
@@ -118,7 +118,7 @@ const PrivacyPolicy = () => {
       </section>
 
       <section>
-        <h2>10. Contact Us</h2>
+        <h2>11. Contact Us</h2>
         <p>📧 locusofficial22@gmail.com</p>
       </section>
     </div>
