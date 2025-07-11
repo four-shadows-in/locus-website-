@@ -28,13 +28,14 @@ const router = createBrowserRouter([
         path: "privacy",
         element: <PrivacyPolicy />,
       },
-       {
-        path: "safety-standards", 
+      {
+        path: "safety-standards",
         element: <ChildSafetyPolicy />,
       },
     ],
   },
 ]);
+ChildSafetyPolicy;
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>

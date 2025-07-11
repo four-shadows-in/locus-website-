@@ -5,7 +5,7 @@ const PrivacyPolicy = () => {
   return (
     <div className="privacy-container">
       <h1 className="privacy-title">Locus – Privacy Policy</h1>
-      <p className="privacy-effective-date">Effective Date: 30-06-2025</p>
+      <p className="privacy-effective-date">Effective Date: 10-07-2025</p>
 
       <section>
         <h2>1. Information We Collect</h2>
@@ -93,6 +93,18 @@ const PrivacyPolicy = () => {
           This app is not intended for children under 13 years of age. If we
           discover we’ve collected data from a child, we will promptly delete
           it.
+        </p>
+      </section>
+
+      <section>
+        <h2>9. Account Deletion</h2>
+        <p>
+          You can request to delete your account at any time. Once your request
+          is received, we will permanently remove your account and associated
+          data, except where we are required to retain certain information for
+          legal or security reasons. Please note that account deletion is
+          irreversible. If you need help, you can contact us at
+          locusofficial22@gmail.com.
         </p>
       </section>
 
