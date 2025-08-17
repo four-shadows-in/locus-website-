@@ -5,7 +5,7 @@ const PrivacyPolicy = () => {
   return (
     <div className="privacy-container">
       <h1 className="privacy-title">Locus – Privacy Policy</h1>
-      <p className="privacy-effective-date">Effective Date: 10-07-2025</p>
+      <p className="privacy-effective-date">Effective Date: 17-08-2025</p>
 
       <section>
         <h2>1. Information We Collect</h2>
@@ -62,7 +62,18 @@ const PrivacyPolicy = () => {
       </section>
 
       <section>
-        <h2>5. Account Policy</h2>
+        <h2>5. Private Messaging</h2>
+        <p>
+          Our app allows private messaging between users only after mutual
+          approval. Messages are stored securely and are not shared with third
+          parties, except as required by law or for safety/security purposes. We
+          do not access or monitor private messages unless necessary to
+          investigate violations of our policies or legal obligations.
+        </p>
+      </section>
+
+      <section>
+        <h2>6. Account Policy</h2>
         <p>
           Each user may create only one account. Duplicate accounts are not
           allowed and may be removed.
@@ -70,7 +81,7 @@ const PrivacyPolicy = () => {
       </section>
 
       <section>
-        <h2>6. Data Sharing</h2>
+        <h2>7. Data Sharing</h2>
         <p>
           We do <strong>not</strong> share, sell, rent, or disclose your data to
           any third parties. Your information is used solely within the app for
@@ -79,7 +90,7 @@ const PrivacyPolicy = () => {
       </section>
 
       <section>
-        <h2>7. Data Security</h2>
+        <h2>8. Data Security</h2>
         <p>
           We implement reasonable technical and organizational safeguards to
           protect your information. However, no digital system is entirely
@@ -88,7 +99,7 @@ const PrivacyPolicy = () => {
       </section>
 
       <section>
-        <h2>8. Children’s Privacy</h2>
+        <h2>9. Children’s Privacy</h2>
         <p>
           This app is not intended for children under 13 years of age. If we
           discover we’ve collected data from a child, we will promptly delete
@@ -97,19 +108,19 @@ const PrivacyPolicy = () => {
       </section>
 
       <section>
-        <h2>9. Account Deletion</h2>
+        <h2>10. Account Deletion</h2>
         <p>
-          You can request to delete your account at any time. Once your request
-          is received, we will permanently remove your account and associated
-          data, except where we are required to retain certain information for
-          legal or security reasons. Please note that account deletion is
-          irreversible. If you need help, you can contact us at
-          locusofficial22@gmail.com.
+          You can delete your account at any time directly from the app. Once
+          you confirm deletion, your account and associated data will be
+          permanently removed with immediate effect. This action is
+          irreversible, and we will not be able to recover your account or data
+          once deleted. Please note that in certain cases, we may be required to
+          retain limited information for legal or security reasons.
         </p>
       </section>
 
       <section>
-        <h2>10. Changes to This Policy</h2>
+        <h2>11. Changes to This Policy</h2>
         <p>
           We may update this policy from time to time. Major changes will be
           communicated through the app or via email with an updated effective
@@ -118,7 +129,7 @@ const PrivacyPolicy = () => {
       </section>
 
       <section>
-        <h2>11. Contact Us</h2>
+        <h2>12. Contact Us</h2>
         <p>📧 locusofficial22@gmail.com</p>
       </section>
     </div>

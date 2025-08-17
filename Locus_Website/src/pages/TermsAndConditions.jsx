@@ -5,12 +5,12 @@ const TermsAndConditions = () => {
   return (
     <div className="terms-container">
       <h1 className="terms-title">Locus – Terms and Conditions</h1>
-      <p className="terms-effective-date">Effective Date: 30-06-2025</p>
+      <p className="terms-effective-date">Effective Date: 17-08-2025</p>
 
       <section>
         <h2>1. Eligibility</h2>
         <p>
-          You must be at least 15 years old to use Locus. By using the App, you
+          You must be at least 13 years old to use Locus. By using the App, you
           confirm that you meet this age requirement and are legally permitted
           to enter into this agreement.
         </p>
@@ -67,15 +67,7 @@ const TermsAndConditions = () => {
       </section>
 
       <section>
-        <h2>7. Location Updates & Notifications</h2>
-        <p>
-          Location updates occur every 15 minutes by default. Opting out may
-          delay notifications or messaging.
-        </p>
-      </section>
-
-      <section>
-        <h2>8. Multiple Accounts Policy</h2>
+        <h2>7. Multiple Accounts Policy</h2>
         <p>
           Only one account per user is allowed. Violations may lead to
           suspension or ban.
@@ -83,7 +75,7 @@ const TermsAndConditions = () => {
       </section>
 
       <section>
-        <h2>9. Data and Permissions</h2>
+        <h2>8. Data and Permissions</h2>
         <p>We request access to:</p>
         <ul>
           <li>Location – to connect with users nearby</li>
@@ -93,7 +85,7 @@ const TermsAndConditions = () => {
       </section>
 
       <section>
-        <h2>10. Termination</h2>
+        <h2>9. Termination</h2>
         <p>
           We may terminate accounts that violate these Terms or cause harm to
           the community.
@@ -101,7 +93,7 @@ const TermsAndConditions = () => {
       </section>
 
       <section>
-        <h2>11. Changes to These Terms</h2>
+        <h2>10. Changes to These Terms</h2>
         <p>
           We may update these Terms and notify you via the App or email.
           Continued use implies acceptance.
@@ -109,7 +101,7 @@ const TermsAndConditions = () => {
       </section>
 
       <section>
-        <h2>12. Contact</h2>
+        <h2>11. Contact</h2>
         <p>📧 locusofficial22@gmail.com</p>
       </section>
     </div>
